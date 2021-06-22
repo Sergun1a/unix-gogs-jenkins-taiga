@@ -130,7 +130,7 @@ services:
     image: mysql:latest
     restart: always
     volumes:
-        - ./mysql:/var/lib/mysql
+        - ~/mysql:/var/lib/mysql
     ports:
         - "3307:3306"
     environment:
@@ -148,7 +148,7 @@ services:
     container_name: jenkins
     # check that the ~/jenkins directory exist
     volumes:
-        - ~/unix/jenkins:/var/jenkins_home
+        - ./jenkins:/var/jenkins_home
         - /var/run/docker.sock:/var/run/docker.sock
         - /usr/local/bin/docker:/usr/local/bin/docker
 
