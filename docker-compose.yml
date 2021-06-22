@@ -11,21 +11,12 @@ x-environment:
   TAIGA_SECRET_KEY: "taiga-back-secret-key"
   TAIGA_SITES_DOMAIN: "localhost:9000"
   TAIGA_SITES_SCHEME: "http"
-  # Email settings. Uncomment following lines and configure your SMTP server
-  # EMAIL_BACKEND: "django.core.mail.backends.smtp.EmailBackend"
-  # DEFAULT_FROM_EMAIL: "no-reply@example.com"
-  # EMAIL_USE_TLS: "False"
-  # EMAIL_USE_SSL: "False"
-  # EMAIL_HOST: "smtp.host.example.com"
-  # EMAIL_PORT: 587
-  # EMAIL_HOST_USER: "user"
-  # EMAIL_HOST_PASSWORD: "password"
   # Rabbitmq settings
   # Should be the same as in taiga-async-rabbitmq and taiga-events-rabbitmq
   RABBITMQ_USER: taiga
   RABBITMQ_PASS: taiga
   # Telemetry settings
-  ENABLE_TELEMETRY: "True"
+  ENABLE_TELEMETRY: "False"
 
 x-volumes:
   &default-back-volumes
@@ -141,7 +132,7 @@ services:
     volumes:
         - ./mysql:/var/lib/mysql
     ports:
-        - "3306:3306"
+        - "3307:3306"
     environment:
         MYSQL_ROOT_PASSWORD: root
         MYSQL_DATABASE: gogs
