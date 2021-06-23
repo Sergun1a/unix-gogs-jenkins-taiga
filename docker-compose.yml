@@ -159,9 +159,9 @@ services:
     volumes:
         - ./gogs:/data
     ports:
+        - "9001:9000"
         - "222:22"
         - "3000:3000"
-		- "9001:9000"
     depends_on:
         - mysql
     links:
