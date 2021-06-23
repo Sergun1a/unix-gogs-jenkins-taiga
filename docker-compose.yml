@@ -153,19 +153,21 @@ services:
         - ./jenkins:/var/jenkins_home
         - /var/run/docker.sock:/var/run/docker.sock
         - /usr/local/bin/docker:/usr/local/bin/docker
-
+    networks:
+      - taiga
   gogs:
     image: gogs/gogs:latest
     volumes:
         - ./gogs:/data
     ports:
-        - "9001:9000"
         - "222:22"
         - "3000:3000"
     depends_on:
         - mysql
     links:
         - mysql
+    networks:
+      - taiga		
 volumes:
   taiga-static-data:
   taiga-media-data:
