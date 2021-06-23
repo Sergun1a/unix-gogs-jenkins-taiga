@@ -140,8 +140,6 @@ services:
         MYSQL_DATABASE: gogs
         MYSQL_USER: gogs
         MYSQL_PASSWORD: gogs
-    networks:
-        - taiga
   jenkins:
     image: jenkins/jenkins:lts
     privileged: true
@@ -155,8 +153,6 @@ services:
         - ./jenkins:/var/jenkins_home
         - /var/run/docker.sock:/var/run/docker.sock
         - /usr/local/bin/docker:/usr/local/bin/docker
-    networks:
-      - taiga
   gogs:
     image: gogs/gogs:latest
     volumes:
@@ -168,8 +164,6 @@ services:
         - mysql
     links:
         - mysql
-    networks:
-        - taiga
 volumes:
   taiga-static-data:
   taiga-media-data:
