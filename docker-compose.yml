@@ -167,7 +167,7 @@ services:
     links:
         - mysql
     networks:
-      - taiga		
+        - taiga
 volumes:
   taiga-static-data:
   taiga-media-data:
