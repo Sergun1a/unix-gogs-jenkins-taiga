@@ -141,7 +141,7 @@ services:
         MYSQL_USER: gogs
         MYSQL_PASSWORD: gogs
     networks:
-      - taiga	
+      - taiga
   jenkins:
     image: jenkins/jenkins:lts
     privileged: true
