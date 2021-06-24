@@ -1,0 +1,1 @@
+docker save $(docker images -q) -o backup.tar
