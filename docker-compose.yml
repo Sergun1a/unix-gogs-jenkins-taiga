@@ -129,7 +129,7 @@ services:
       - taiga-back
       - taiga-events
   mysql:
-    image: mysql:8
+    image: mysql:lts
     restart: always
     volumes:
         - ~/mysql:/var/lib/mysql
@@ -154,7 +154,7 @@ services:
         - /var/run/docker.sock:/var/run/docker.sock
         - /usr/local/bin/docker:/usr/local/bin/docker
   gogs:
-    image: gogs/gogs:0.12
+    image: gogs/gogs:lts
     volumes:
         - ./gogs:/data
     ports:
