@@ -1,0 +1,2 @@
+ru/ac/uniyar/testingcourse/Course.java
+ ru.ac.uniyar.testingcourse.Course

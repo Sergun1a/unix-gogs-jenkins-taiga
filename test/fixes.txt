@@ -1,0 +1,11 @@
+1. В методе enroll была изменена проверка заполненности курса (на 40 строке)
+было: hasWaitingList()
+стало: isFullyEnrolled()
+
+2. В методе unenroll был изменен вызов remove, так чтобы он удалял элемент списка не по ключу, а по значению объекта (на строке 56  и строке 53)
+было: enrollList.remove(studentId); и waitingList.remove(studentId);
+стало: enrollList.remove((Object)studentId); и waitingList.remove((Object)studentId);
+
+3. Добавлен метод getMaxStudents для осуществления проверки maxStudents на неотрицательность
+
+

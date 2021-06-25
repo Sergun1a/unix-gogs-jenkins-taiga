@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.ac.uniyar.testingcourse.CourseTest" tests="79" skipped="0" failures="0" errors="0" timestamp="2021-06-23T18:12:07" hostname="DESKTOP-1ISBQ9T" time="1.657">
+  <properties/>
+  <testcase name="[1] 1" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.222"/>
+  <testcase name="[2] 20" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.022"/>
+  <testcase name="[3] 347" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.003"/>
+  <testcase name="[1] 1" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.013"/>
+  <testcase name="[2] 20" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.002"/>
+  <testcase name="[3] 347" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.004"/>
+  <testcase name="positiveMaxStudents()" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.035"/>
+  <testcase name="emptyCourseFullEnrolled()" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.007"/>
+  <testcase name="[1] 1" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.002"/>
+  <testcase name="[2] 20" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.003"/>
+  <testcase name="[3] 347" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.002"/>
+  <testcase name="[1] 1" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.003"/>
+  <testcase name="[2] 20" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.001"/>
+  <testcase name="[3] 347" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.002"/>
+  <testcase name="[1] 1" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.005"/>
+  <testcase name="[2] 20" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.004"/>
+  <testcase name="[3] 347" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.017"/>
+  <testcase name="[1] 1" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.003"/>
+  <testcase name="[2] 20" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.014"/>
+  <testcase name="[3] 347" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.029"/>
+  <testcase name="[1] 1" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.003"/>
+  <testcase name="[2] 20" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.004"/>
+  <testcase name="[3] 347" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.002"/>
+  <testcase name="[1] 1" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.006"/>
+  <testcase name="[2] 20" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.005"/>
+  <testcase name="[3] 347" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.004"/>
+  <testcase name="[1] 1" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.001"/>
+  <testcase name="[2] 20" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.004"/>
+  <testcase name="[3] 347" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.005"/>
+  <testcase name="[1] 1" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.002"/>
+  <testcase name="[2] 20" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.013"/>
+  <testcase name="[3] 347" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.01"/>
+  <testcase name="[1] 1" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.005"/>
+  <testcase name="[2] 20" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.005"/>
+  <testcase name="[3] 347" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.004"/>
+  <testcase name="[1] 1" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.004"/>
+  <testcase name="[2] 20" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.016"/>
+  <testcase name="[3] 347" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.014"/>
+  <testcase name="courseEmptyEnrolledList()" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.002"/>
+  <testcase name="[1] 1" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.024"/>
+  <testcase name="[2] 20" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.005"/>
+  <testcase name="[3] 347" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.006"/>
+  <testcase name="[1] 1" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.024"/>
+  <testcase name="[2] 20" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.005"/>
+  <testcase name="[3] 347" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.001"/>
+  <testcase name="[1] 1" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.003"/>
+  <testcase name="[2] 20" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.002"/>
+  <testcase name="[3] 347" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.003"/>
+  <testcase name="emptyCourseWaitingList()" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.001"/>
+  <testcase name="[1] 1" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.195"/>
+  <testcase name="[2] 20" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.004"/>
+  <testcase name="[3] 347" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.004"/>
+  <testcase name="[1] 1" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.012"/>
+  <testcase name="[2] 20" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.006"/>
+  <testcase name="[3] 347" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.004"/>
+  <testcase name="[1] 1" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.002"/>
+  <testcase name="[2] 20" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.001"/>
+  <testcase name="[3] 347" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.008"/>
+  <testcase name="[1] 1" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.003"/>
+  <testcase name="[2] 20" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.005"/>
+  <testcase name="[3] 347" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.006"/>
+  <testcase name="[1] 1" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.003"/>
+  <testcase name="[2] 20" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.009"/>
+  <testcase name="[3] 347" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.008"/>
+  <testcase name="[1] 1" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.006"/>
+  <testcase name="[2] 20" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.006"/>
+  <testcase name="[3] 347" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.005"/>
+  <testcase name="[1] 1" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.003"/>
+  <testcase name="[2] 20" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.004"/>
+  <testcase name="[3] 347" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.002"/>
+  <testcase name="[1] 1" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.006"/>
+  <testcase name="[2] 20" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.001"/>
+  <testcase name="[3] 347" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.004"/>
+  <testcase name="[1] 1" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.001"/>
+  <testcase name="[2] 20" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.001"/>
+  <testcase name="[3] 347" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.001"/>
+  <testcase name="[1] 1" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.002"/>
+  <testcase name="[2] 20" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.0"/>
+  <testcase name="[3] 347" classname="ru.ac.uniyar.testingcourse.CourseTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
